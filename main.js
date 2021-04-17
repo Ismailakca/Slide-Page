@@ -1,7 +1,8 @@
 $(document).ready(function(){
   $('.slider').slick({
     infinite: true,
-    arrows:false   
+    arrows:false,
+    autoplay: true,  
   });
 });
 
