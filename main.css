@@ -210,6 +210,9 @@ body {
     display: flex;
     align-items: center;
     font-size: 20px; }
+    @media (max-width: 600px) {
+      .main .pagination {
+        margin-top: 100px; } }
     .main .pagination .one {
       color: darkcyan;
       margin-right: 5px; }
@@ -225,7 +228,7 @@ body {
     margin-top: 20px; }
     @media (max-width: 600px) {
       .main__head {
-        font-size: 35px; } }
+        font-size: 30px; } }
   .main .detail {
     display: flex;
     align-items: center; }
@@ -294,3 +297,6 @@ body {
         @media (max-width: 600px) {
           .footer__nav-item a {
             font-size: 14px; } }
+
+.opacity {
+  opacity: .3; }

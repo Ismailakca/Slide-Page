@@ -234,6 +234,9 @@ body{
         display: flex;
         align-items: center;
         font-size: 20px;
+        @include mq('mobile'){
+            margin-top: 100px;
+        }
         .one{
             color: darkcyan;
             margin-right: 5px;
@@ -251,8 +254,9 @@ body{
         letter-spacing: 1.5px;
         margin-top: 20px;
         @include mq('mobile'){
-            font-size: 35px;
+            font-size: 30px;
         }
+       
     }
     .detail{
         display: flex;
@@ -336,5 +340,9 @@ body{
             }
         }
     }
+}
+
+.opacity{
+    opacity: .3;
 }
   
